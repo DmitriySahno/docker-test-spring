@@ -1,0 +1,11 @@
+spring:
+  application:
+    name: docker-test
+  datasource:
+    url: jdbc:postgresql://localhost:5400/docker_test
+    driver-class-name: org.postgresql.Driver
+    username: postgres
+    password: password
+
+server:
+  port: 8080
